@@ -1,5 +1,9 @@
-# prediction-electricity-consummation
+<snippet>
+  <content><![CDATA[
+# Forecasting of Electricity Consummation in USA
+---
+Data source is from the Global Energy Forecasting Competition 2012. Hourly data are recorded at 13 stations. For this  project, we choose data just from the 12th station at 20h. To modelize short term, mi-long term and long term components, a linear regression and a semi-parametric model are used in R. Resampling methods like K-fold validation and bootstrap are applied to better evaluate test error and reuse information.
 
-Modeled electricity consummation using linear regression and generalized addictive model in R
-
-Selected better model by K-fold validation and prediction of electricity consummation
+]]></content>
+  <tabTrigger>readme</tabTrigger>
+</snippet>
